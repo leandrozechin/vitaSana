@@ -7,12 +7,6 @@
 
 /*Header**************************************************************/
 
-.navbar-toggler .line{
-width: 100%;
-float: left;
-height: 2px;
-background-color: #fff;
-margin-bottom: 5px;
 
 /* Cambia text color de navbar */
 .navbar-custom .navbar-brand,
