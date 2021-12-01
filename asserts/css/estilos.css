@@ -7,7 +7,6 @@
 
 /*Header**************************************************************/
 
-
 /* Cambia text color de navbar */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -54,6 +53,10 @@
   object-position: center;
  
   height:80vh;
+} 
+
+.custom-toggler.navbar-toggler {
+  border-color:#5cb874;;
 } 
 
 /*Boton whatsaap*/
@@ -213,7 +216,7 @@
     padding: 10px 12px;
   }
   
-  .contacto .email-form button[type="submit"] {
+  .contacto .email-form button {
     background: #5cb874;
     border: 0;
     padding: 10px 24px;
@@ -222,7 +225,7 @@
     border-radius: 4px;
   }
   
-  .contacto .email-form button[type="submit"]:hover {
+  .contacto .email-form button:hover {
     background: #5cb874;
   }
   
@@ -273,3 +276,16 @@ letter-spacing: 3px;
 
 
 
+.table-content {
+  width: 450px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+td {
+  width: 100px;
+}
+
+#src-file::before {
+  content: 'Cambiar Imagen';
+}
